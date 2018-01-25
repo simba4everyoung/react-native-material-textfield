@@ -20,7 +20,8 @@ export default class Affix extends PureComponent {
 
     type: PropTypes.oneOf(['prefix', 'suffix']).isRequired,
 
-    fontSize: PropTypes.number.isRequired,
+    // fontSize: PropTypes.number.isRequired,
+    fontSize: PropTypes.number,
     baseColor: PropTypes.string.isRequired,
     animationDuration: PropTypes.number.isRequired,
 
